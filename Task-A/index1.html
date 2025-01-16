@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Settings</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+  <div class="sidebar">
+    <img src="images/logo.png" alt="Logo" width="40">
+
+    <div class="icon" data-tooltip="Dashboard">
+        <img src="images/sidebar/dashboard.png" alt="Dashboard Icon">
+    </div>
+    <div class="icon" data-tooltip="Candidates">
+        <img src="images/sidebar/candidates.png" alt="Candidates Icon">
+    </div>
+    <div class="icon" data-tooltip="Companies">
+        <img src="images/sidebar/companies.png" alt="Companies Icon">
+    </div>
+    <div class="icon" data-tooltip="Contacts">
+        <img src="images/sidebar/contacts.png" alt="Contacts Icon">
+    </div>
+    <div class="icon" data-tooltip="Jobs">
+        <img src="images/sidebar/jobs.png" alt="Jobs Icon">
+    </div>
+    <div class="icon" data-tooltip="Mailbox">
+        <img src="images/sidebar/MailBox.png" alt="MailBox Icon">
+    </div>
+    <div class="icon" data-tooltip="Tasks & Meetings">
+      <img src="images/sidebar/Tasks & Meetings.png" alt="Tasks & Meetings Icon">
+  </div>
+  <div class="icon" ></div>
+  <div class="icon" data-tooltip="Deals">
+    <img src="images/sidebar/deals.png" alt="Deals">
+  </div>
+  <div class="icon" data-tooltip="Reports">
+    <img src="images/sidebar/Reports.png" alt="Deals">
+  </div>
+  <div class="icon" data-tooltip="Placements & Billings">
+    <img src="images/sidebar/placements & billings.png" alt="placements & billings">
+  </div>
+</div>
+
+
+    <div class="navbar">
+        <div class="search-bar-container">
+            <input class="search-bar" type="text" placeholder="Search By Name, Job, Email & LinkedIn URL"> 
+            <button>Book a Demo</button>
+            <button>Upgrade Your Account</button>
+        </div>
+        <div class="symbols">
+            <button>?</button>
+            <button>📥</button>
+            <button>📧</button>
+            <button>🔔</button>
+            <button>👤</button> 
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="header">ADMIN SETTINGS</div>
+        <div class="search-bar">
+            <select id="settings-filter" onchange="filterSettings()">
+                <option value="all">Select</option>
+                <option value="account-management">Account Management</option>
+                <option value="crm-process">CRM Process Customization</option>
+                <option value="data-customization">Data Customization</option>
+                <option value="job-settings">Job Settings</option>
+                <option value="api">API</option>
+            </select>
+        </div>
+        <div class="settings-grid" id="settings-grid">
+           
+            <div class="settings-item account-management">
+                <img src="images/users_icon.svg" alt="Users">
+                <span>Users</span>
+            </div>
+            <div class="settings-item account-management">
+                <img src="images/account.svg" alt="Account">
+                <span>Account</span>
+            </div>
+            <div class="settings-item account-management">
+                <img src="images/plans-and-billing.svg" alt="Plans & Billing">
+                <span>Plans & Billing</span>
+            </div>
+            <div class="settings-item account-management">
+                <img src="images/audit-log.svg" alt="Audit Log">
+                <span>Audit Log</span>
+            </div>
+
+            <div class="settings-item crm-process">
+                <img src="images/email-trigger.svg" alt="Email Triggers">
+                <span>Email Triggers</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/sales-pipeline.svg" alt="Contact Stages">
+                <span>Contact Stages</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/hiring-pipeline.svg" alt="Hiring Pipeline">
+                <span>Hiring Pipeline</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/pitch-candidates-stages.svg" alt="Pitch Candidate Pipeline">
+                <span>Pitch Candidate Pipeline</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/deal-pipeline.svg" alt="Deals Pipeline">
+                <span>Deals Pipeline</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/customize-job-status.svg" alt="Job Status">
+                <span>Job Status</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/invoice.svg" alt="Customize Invoice">
+                <span>Customize Invoice</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/field_shared_with_clients.png" alt="Fields Shared With Clients">
+                <span>Fields Shared With Clients</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/calltype-customization.svg" alt="Call Type Customization">
+                <span>Call Type Customization</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/notetype-customization.svg" alt="Note Type Customization">
+                <span>Note Type Customization</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/meeting-type.svg" alt="Meeting Type Customization">
+                <span>Meeting Type Customization</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/task-type.svg" alt="Task Type Customization">
+                <span>Task Type Customization</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/cv-formatting-setting.svg" alt="Resume Formatting Settings">
+                <span>Resume Formatting Settings</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/email-sequence.svg" alt="Sequences">
+                <span>Sequences</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/executive-search-report.svg" alt="Executive Search Report Settings">
+                <span>Executive Search Report Settings</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/workflow-automation-icon.svg" alt="Workflow Automation & Integrations">
+                <span>Workflow Automation & Integrations</span>
+            </div>
+            <div class="settings-item crm-process">
+                <img src="images/hand-back-left-off.svg" alt="Off-Limits Status">
+                <span>Off-Limits Status</span>
+            </div>
+
+            <div class="settings-item data-customization">
+                <img src="images/fields.png " alt="Candidate Fields">
+                <span>Candidate Fields</span>
+            </div>
+            <div class="settings-item data-customization">
+                <img src="images/company.png" alt="Company Fields">
+                <span>Company Fields</span>
+            </div>
+            <div class="settings-item data-customization">
+                <img src="images/contact.png" alt="Contact Fields">
+                <span>Contact Fields</span>
+            </div>
+            <div class="settings-item data-customization">
+                <img src="images/deal.png" alt="Deal Fields">
+                <span>Deal Fields</span>
+            </div>
+            <div class="settings-item data-customization">
+                <img src="images/job.png" alt="Job Fields">
+                <span>Job Fields</span>
+            </div>
+            <div class="settings-item data-customization">
+                <img src="images/email-template.svg" alt="Email Templates">
+                <span>Email Templates</span>
+            </div>
+            <div class="settings-item data-customization">
+                <img src="images/translation-icon.svg" alt="Opt-out Settings">
+                <span>Opt-out Settings</span>
+            </div>
+            <div class="settings-item data-customization">
+                <img src="images/activity-template.svg" alt="Activity Templates">
+                <span>Activity Templates</span>
+            </div>
+
+            <div class="settings-item job-settings">
+                <img src="images/jobs-page.svg" alt="Public Job Page Settings">
+                <span>Public Job Page Settings</span>
+            </div>
+            <div class="settings-item job-settings">
+                <img src="images/jobs-application-form.svg" alt="Job Application Form Settings">
+                <span>Job Application Form Settings</span>
+            </div>
+            <div class="settings-item job-settings">
+                <img src="images/profile-update-form-icon.svg" alt="Profile Update Form Settings">
+                <span>Profile Update Form Settings</span>
+            </div>
+            <div class="settings-item job-settings">
+                <img src="images/talent-pool-icon.svg" alt="Talent Pool Page Settings">
+                <span>Talent Pool Page Settings</span>
+            </div>
+            <div class="settings-item job-settings">
+                <img src="images/bullhorn.svg" alt="Job Advertising">
+                <span>Job Advertising</span>
+            </div>
+            <div class="settings-item job-settings">
+                <img src="images/external-job-boards.svg" alt="External Job Boards">
+                <span>External Job Boards</span>
+            </div>
+
+            <div class="settings-item api">
+                <img src="images/phone-and-sms-icon.svg" alt="Phone Calling & SMS Settings">
+                <span>Phone Calling & SMS Settings</span>
+            </div>
+            <div class="settings-item api">
+                <img src="images/api-integrations.svg" alt="API">
+                <span>API</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.916 28.916">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cef8d1;
+      }
+
+      .cls-2 {
+        fill: #0bd26c;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_95" data-name="Group 95" transform="translate(928.469 -899.434)">
+    <g id="Group_94" data-name="Group 94" transform="translate(-1071.469 626.434)">
+      <g id="Group_88" data-name="Group 88" transform="translate(143 273)">
+        <circle id="Ellipse_70" data-name="Ellipse 70" class="cls-1" cx="14.458" cy="14.458" r="14.458"/>
+      </g>
+      <g id="baseline-account_circle-24px" transform="translate(146.518 276.518)">
+        <path id="Path_131" data-name="Path 131" class="cls-2" d="M10.894,2a8.894,8.894,0,1,0,8.894,8.894A8.9,8.9,0,0,0,10.894,2Zm0,2.668A2.668,2.668,0,1,1,8.225,7.336,2.664,2.664,0,0,1,10.894,4.668Zm0,12.629a6.4,6.4,0,0,1-5.336-2.864c.027-1.77,3.557-2.739,5.336-2.739s5.309.969,5.336,2.739A6.4,6.4,0,0,1,10.894,17.3Z" transform="translate(0.169 0.169)"/>
+        <path id="Path_132" data-name="Path 132" class="cls-3" d="M0,0H22.125V22.125H0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

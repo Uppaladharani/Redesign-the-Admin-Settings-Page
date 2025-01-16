@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.828" height="19.119" viewBox="0 0 26.828 19.119">
+  <g id="cogwheel" transform="translate(0 -73.56)">
+    <g id="Group_3027" data-name="Group 3027" transform="translate(0 73.56)">
+      <g id="Group_3026" data-name="Group 3026">
+        <path id="Path_470" data-name="Path 470" d="M24.47,73.56H2.358A2.361,2.361,0,0,0,0,75.918v14.4a2.361,2.361,0,0,0,2.358,2.358H24.47a2.361,2.361,0,0,0,2.358-2.358v-14.4A2.361,2.361,0,0,0,24.47,73.56Zm.786,16.761a.787.787,0,0,1-.786.786H2.358a.787.787,0,0,1-.786-.786V79.031H25.256Zm0-12.862H1.572V75.918a.787.787,0,0,1,.786-.786H24.47a.787.787,0,0,1,.786.786Z" transform="translate(0 -73.56)" fill="#5d6372"/>
+      </g>
+    </g>
+    <g id="Group_3029" data-name="Group 3029" transform="translate(6.457 81.09)">
+      <g id="Group_3028" data-name="Group 3028">
+        <path id="Path_471" data-name="Path 471" d="M125.771,217.264a2.545,2.545,0,0,0-2.542,2.542v3.43a.786.786,0,1,0,1.572,0v-1.49h1.94v1.49a.786.786,0,1,0,1.572,0v-3.43A2.545,2.545,0,0,0,125.771,217.264Zm.97,2.91H124.8v-.368h0a.97.97,0,1,1,1.94,0Z" transform="translate(-123.229 -217.264)" fill="#5d6372"/>
+      </g>
+    </g>
+    <g id="Group_3031" data-name="Group 3031" transform="translate(12.628 81.09)">
+      <g id="Group_3030" data-name="Group 3030">
+        <path id="Path_472" data-name="Path 472" d="M243.843,217.264h-2.057a.786.786,0,0,0-.786.786v5.186a.786.786,0,1,0,1.572,0v-1.49h1.271a2.241,2.241,0,1,0,0-4.482Zm0,2.91h-1.271v-1.338h1.271a.669.669,0,1,1,0,1.338Z" transform="translate(-241 -217.264)" fill="#5d6372"/>
+      </g>
+    </g>
+    <g id="Group_3033" data-name="Group 3033" transform="translate(18.799 81.09)">
+      <g id="Group_3032" data-name="Group 3032">
+        <path id="Path_473" data-name="Path 473" d="M359.557,217.264a.786.786,0,0,0-.786.786v5.186a.786.786,0,1,0,1.572,0V218.05A.786.786,0,0,0,359.557,217.264Z" transform="translate(-358.771 -217.264)" fill="#5d6372"/>
+      </g>
+    </g>
+  </g>
+</svg>

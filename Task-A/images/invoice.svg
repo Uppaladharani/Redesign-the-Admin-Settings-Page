@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.513 27.734">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aa11e1;
+      }
+    </style>
+  </defs>
+  <g id="bill" transform="translate(-38.956)">
+    <g id="Group_97" data-name="Group 97" transform="translate(53.426 19.896)">
+      <g id="Group_96" data-name="Group 96" transform="translate(0)">
+        <path id="Path_139" data-name="Path 139" class="cls-1" d="M306.991,367.3a.9.9,0,1,0,.9.9A.905.905,0,0,0,306.991,367.3Z" transform="translate(-306.087 -367.304)"/>
+      </g>
+    </g>
+    <g id="Group_99" data-name="Group 99" transform="translate(46.191 12.661)">
+      <g id="Group_98" data-name="Group 98">
+        <path id="Path_140" data-name="Path 140" class="cls-1" d="M173.425,233.739a.9.9,0,1,0,.9.9A.905.905,0,0,0,173.425,233.739Z" transform="translate(-172.521 -233.739)"/>
+      </g>
+    </g>
+    <g id="Group_101" data-name="Group 101" transform="translate(38.956 0)">
+      <g id="Group_100" data-name="Group 100">
+        <path id="Path_141" data-name="Path 141" class="cls-1" d="M61.565,0H39.86a.9.9,0,0,0-.9.9V26.829a.9.9,0,0,0,1.309.809l3.213-1.606,3.213,1.606a.906.906,0,0,0,.809,0l3.213-1.606,3.213,1.606a.905.905,0,0,0,.809,0l3.213-1.606,3.213,1.606a.9.9,0,0,0,1.309-.809V.9A.9.9,0,0,0,61.565,0ZM43.478,3.617a.9.9,0,1,1-.9.9A.9.9,0,0,1,43.478,3.617Zm0,5.426a.9.9,0,1,1,.9-.9A.9.9,0,0,1,43.478,9.044Zm.9,4.522A2.713,2.713,0,1,1,47.1,16.278,2.716,2.716,0,0,1,44.382,13.565Zm3.133,8.094a.9.9,0,1,1-1.279-1.279l7.673-7.674a.9.9,0,0,1,1.279,1.279Zm6.815,1.854A2.713,2.713,0,1,1,57.043,20.8,2.716,2.716,0,0,1,54.33,23.513Zm3.617-14.47H47.1a.9.9,0,1,1,0-1.809H57.948a.9.9,0,1,1,0,1.809Zm0-3.617H47.1a.9.9,0,1,1,0-1.809H57.948a.9.9,0,1,1,0,1.809Z" transform="translate(-38.956 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>
